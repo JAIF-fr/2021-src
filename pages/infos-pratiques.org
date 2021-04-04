@@ -1,16 +1,7 @@
 #+STARTUP: showall
 #+OPTIONS: toc:nil
-#+title: JAIF 2020
+#+title: JAIF
 
 * Informations pratiques
 
-
-
-Date:  la journée aura lieu le [[./index.html][mercredi 18 mars, de 09h30 à 17h00]].
-
-Lieu: Amphi Dussane, [[https://www.di.ens.fr/information][Ecole Normale Supérieure, 45 rue d'Ulm, 75005 Paris]].
-
-
-#+BEGIN_EXPORT html
-<p><img class="pure-img" src="media/Plan_45ULM_RDC.jpeg" /></p>
-#+END_EXPORT
+tbd.

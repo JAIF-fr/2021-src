@@ -1,6 +1,6 @@
 #+STARTUP: showall
 #+OPTIONS: toc:nil
-#+title: JAIF 2020
+#+title: JAIF
 
 * Journée thématique sur les attaques par injection de fautes
 
@@ -8,22 +8,19 @@
 
 #+begin_export html
 <p style="text-align:center; font-weight: bold;">
-<del>
-Mercredi 18 mars 2020, Paris.
-</del>
 </p>
 <p class="alert" style="text-align:center; color: #3B31D9; line-height: 2em; font-size: x-large; font-weight: bold;">
-Jeudi 24 septembre 2020, Paris.
+Jeudi 23 Septembre 2021, Paris + distanciel.
 </p>
 <center>
-<p style="text-align:center; font-weight: bold;">
-Amphi Dussane, Ecole Normale Supérieure, 45 rue d’Ulm.  Paris Ve.
-</p>
 </center>
 #+end_export
+# <p style="text-align:center; font-weight: bold;">
+# Amphi Dussane, Ecole Normale Supérieure, 45 rue d’Ulm.  Paris Ve.
+# </p>
 
 
-*[[./inscription.html][Réservez la date et inscrivez-vous !]]*
+# *[[./inscription.html][Réservez la date et inscrivez-vous !]]*
 Nous prévoyons un évènement en présentiel avec la possibilité de
 participer à distance. Suivant l’évolution des règles sanitaires nous
 pourrons être amenés à faire tout en distanciel.
@@ -31,14 +28,6 @@ pourrons être amenés à faire tout en distanciel.
 
 ** Description
 
-# Cette journée s’inscrit dans la suite de la journée [[https://lazart.gricad-pages.univ-grenoble-alpes.fr/sertif/pages/workshop.html][SERTIF]] organisée
-# en 2016 à Grenoble,
-# puis de la journée [[https://wp-systeme.lip6.fr/jaif][JAIF]] organisée en 2018 à Paris.
-
-# Éditions précédentes :
-# + workshop SERTIF, 2016
-# + JAIF 2018
-# + JAIF 2019
 
 Ce workshop a pour objectif de réunir la communauté de la recherche
 française en analyse de fautes sur des systèmes de sécurité, pour
@@ -80,68 +69,68 @@ travers de présentations et de discussions.
 
 Contact: [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]
 
-** Soutien institutionnel
+# ** Soutien institutionnel
 
-JAIF est une journée thématique du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]].
-La journée est organisée avec le soutien logistique et financier :
-- du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]],
-- de l'[[https://www.ens.fr][ENS]],
-- du [[https://cybersecurity.univ-grenoble-alpes.fr][Cybersecurity Institute]] de l'Université Grenoble Alpes.
+# JAIF est une journée thématique du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]].
+# La journée est organisée avec le soutien logistique et financier :
+# - du [[https://gdr-securite.irisa.fr][GDR Sécurité Informatique]],
+# - de l'[[https://www.ens.fr][ENS]],
+# - du [[https://cybersecurity.univ-grenoble-alpes.fr][Cybersecurity Institute]] de l'Université Grenoble Alpes.
 
-#+BEGIN_EXPORT html
-<center>
-<p>
-<a href="https://gdr-securite.irisa.fr">
-<img src="./media/logo_cnrs.png" alt="Logo CNRS" title="CNRS" data-align="center" height="100" /></a>
+# #+BEGIN_EXPORT html
+# <center>
+# <p>
+# <a href="https://gdr-securite.irisa.fr">
+# <img src="./media/logo_cnrs.png" alt="Logo CNRS" title="CNRS" data-align="center" height="100" /></a>
 
- 
-<a href="https://gdr-securite.irisa.fr/index.html"><img
-     src="./media/GDR_logo_04-vecto-01.png" alt="Logo GDR sécurité"
-     title="GDR Sécurité Informatique"
-     data-align="center" height="100" /></a>
+#  
+# <a href="https://gdr-securite.irisa.fr/index.html"><img
+#      src="./media/GDR_logo_04-vecto-01.png" alt="Logo GDR sécurité"
+#      title="GDR Sécurité Informatique"
+#      data-align="center" height="100" /></a>
 
-<a href="https://www.ens.fr">
-<img src="./media/logo_ENS_PSL.jpg" alt="Logo ENS" title="ENS" data-align="center" height="100" /></a>
+# <a href="https://www.ens.fr">
+# <img src="./media/logo_ENS_PSL.jpg" alt="Logo ENS" title="ENS" data-align="center" height="100" /></a>
 
- 
-<a href="https://cybersecurity.univ-grenoble-alpes.fr"><img
-     src="./media/logo_GACI.png" alt="Logo GACI"
-     title="Cybersecurity Institute de l'Université Grenoble Alpes"
-     data-align="center" height="100" /></a>
-</p>
-</center>
-#+END_EXPORT
+#  
+# <a href="https://cybersecurity.univ-grenoble-alpes.fr"><img
+#      src="./media/logo_GACI.png" alt="Logo GACI"
+#      title="Cybersecurity Institute de l'Université Grenoble Alpes"
+#      data-align="center" height="100" /></a>
+# </p>
+# </center>
+# #+END_EXPORT
 
-** Sponsors
+# ** Sponsors
 
-JAIF est parrainé par :
-- [[https://www.arm.com][ARM]],
-- [[https://www.idemia.com][IDEMIA]],
-- [[https://www.invia.fr][INVIA]], a Thales Company
-- [[https://www.ledger.com][Ledger]],
-- [[https://www.serma-safety-security.com][Serma Safety & Security]].
+# JAIF est parrainé par :
+# - [[https://www.arm.com][ARM]],
+# - [[https://www.idemia.com][IDEMIA]],
+# - [[https://www.invia.fr][INVIA]], a Thales Company
+# - [[https://www.ledger.com][Ledger]],
+# - [[https://www.serma-safety-security.com][Serma Safety & Security]].
 
-#+BEGIN_EXPORT html
-<center>
-<p>
-<a href="https://www.arm.com">
-<img src="./media/logo_ARM.png" alt="Logo ARM" title="ARM" data-align="center" height="80" /></a>
+# #+BEGIN_EXPORT html
+# <center>
+# <p>
+# <a href="https://www.arm.com">
+# <img src="./media/logo_ARM.png" alt="Logo ARM" title="ARM" data-align="center" height="80" /></a>
 
- 
-<a href="https://www.idemia.com">
-<img src="./media/logo_IDEMIA.png" alt="Logo IDEMIA" title="IDEMIA" data-align="center" height="80" /></a>
+#  
+# <a href="https://www.idemia.com">
+# <img src="./media/logo_IDEMIA.png" alt="Logo IDEMIA" title="IDEMIA" data-align="center" height="80" /></a>
 
- 
-<a href="https://www.invia.fr">
-<img src="./media/logo_INVIA.jpeg" alt="Logo INVIA" title="INVIA, a Thales Company" data-align="center" height="80" /></a>
+#  
+# <a href="https://www.invia.fr">
+# <img src="./media/logo_INVIA.jpeg" alt="Logo INVIA" title="INVIA, a Thales Company" data-align="center" height="80" /></a>
 
- 
-<a href="https://www.ledger.com">
-<img src="./media/logo_Ledger.png" alt="Logo Ledger" title="Ledger" data-align="center" height="80" /></a>
+#  
+# <a href="https://www.ledger.com">
+# <img src="./media/logo_Ledger.png" alt="Logo Ledger" title="Ledger" data-align="center" height="80" /></a>
 
- 
-<a href="https://www.serma-safety-security.com">
-<img src="./media/logo_Serma.jpg" alt="Logo Serma" title="Serma" data-align="center" height="80" /></a>
-</p>
-</center>
-#+END_EXPORT
+#  
+# <a href="https://www.serma-safety-security.com">
+# <img src="./media/logo_Serma.jpg" alt="Logo Serma" title="Serma" data-align="center" height="80" /></a>
+# </p>
+# </center>
+# #+END_EXPORT
