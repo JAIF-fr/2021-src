@@ -1,0 +1,143 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+title: JAIF 2020
+
+* Programme
+
+Le programme de la journée est aménagé pour maximiser les interactions
+entre les participants.  Les présentations de chaque session auront
+vocation à être ouvertes aux interactions avec l'assemblée, et un
+temps de questions et de discussions sera réservé à la fin de chaque
+session.
+
+La journée est organisée en *présentiel* à l'ENS, et en *virtuel* sur
+Zoom.  Un mail contenant les informations de connexion sera envoyé
+quelques jours avant la journée à tous les participants inscrits.
+
+En présentiel, tous les participants devront respecter les règles
+sanitaires en usage, en particulier le port du masque.  Pour la pause
+déjeuner, il ne sera pas prévu de restauration sur place, mais de
+nombreuses possibilités de restauration sont possibles à proximité
+immédiate de l'ENS.
+
+
+
+| 09h50 |                                               | Ouverture de la salle                                                                                                                                         |                   |
+| 10h00 | Guillaume Bouffard                            | *Ouverture de la journée*                                                                                                                                     | [[[file:media/JAIF2020_introduction.pdf][slides]]]          |
+| 10h10 | *Session 1*                                   | *Injection de fautes et modélisation*                                                                                                                         |                   |
+|       | Jean-Max Dutertre                             | Discussion of the laser and EM Instruction Skip Fault Models                                                                                                  | [[[#dutertre][résumé]]] [[[file:media/JAIF2020_Dutertre.pdf][slides]]] |
+|       | Karim M. Abdellatif et Olivier Hériveaux      | Keep it Cheap: Multiple Faults Attacks in Practice                                                                                                            | [[[#abdellatif][résumé]]] [[[file:media/JAIF2020_Abdellatif.pdf][slides]]] |
+|       | Vincent Werner                                | Méthodologie d'analyse de vulnérabilité en presence de faute multiple                                                                                         | [[[#werner][résumé]]] [[[file:media/JAIF2020_Werner.pdf][slides]]] |
+|       |                                               | Q&R                                                                                                                                                           |                   |
+| 11h25 |                                               | /Pause/                                                                                                                                                       |                   |
+| 11h35 | *Session 2*                                   | *Questions ouvertes sur la sécurité des systèmes*                                                                                                             |                   |
+|       | Christophe Evrard                             | A journey to Soft IP Common Criteria Certification                                                                                                            | [[[file:media/JAIF2020_Evrard.pdf][slides]]]          |
+|       | +José Lopes-Esteves+                          | +AGREMI, EMFI et CEM+                                                                                                                                         |                   |
+|       |                                               | Q&R                                                                                                                                                           |                   |
+| 12h00 |                                               | /Déjeuner ---pas de restauration sur place---/                                                                                                                |                   |
+| 13h30 | *Session 3*                                   | *Protections logicielles*                                                                                                                                     |                   |
+|       | Chukri Soueidi, Ali Kassem, and Ylies Falcone | BISM: Bytecode-Level Instrumentation for Software Monitoring                                                                                                  | [[[#falcone][résumé]]] [[[file:media/JAIF2020_Soueidi.pdf][slides]]] |
+|       | Son Tuan Vu                                   | Propagation et péservation de propriétés dans un flot de compilation optimisant et applications à la préservation de protections contre les attaques en faute | [[[#vu][résumé]]] [[[file:media/JAIF2020_Vu.pdf][slides]]] |
+|       | Étienne Boespflug                             | Analyse et placement de contremesures logicielles contre l'injection de faute en multi-faute                                                                  | [[[#boespflug][résumé]]] [[[file:media/JAIF2020_Boespflug.pdf][slides]]] |
+|       |                                               | Q&R                                                                                                                                                           |                   |
+| 14h45 |                                               | /Pause/                                                                                                                                                       |                   |
+| 15h00 | *Session 4*                                   | *Architecture et exploitabilité*                                                                                                                              |                   |
+|       | Johan Laurent                                 | Bridging the Gap between RTL and Software Fault Injection: a Methodology for Accurate Fault Modeling                                                          | [[[#laurent][résumé]]] [[[file:media/JAIF2020_Laurent.pdf][slides]]] |
+|       | Thomas Trouchkine                             | Perturbation attacks on modern CPU, from the fault model to the exploitation                                                                                  | [[[file:media/JAIF2020_Trouchkine.pdf][slides]]]          |
+|       |                                               | Q&R                                                                                                                                                           |                   |
+| 15h45 | Comité d'organisation                         | *Clôture de la journée*                                                                                                                                       |                   |
+
+*** Keep it Cheap: Multiple Faults Attacks in Practice
+    :PROPERTIES:
+    :CUSTOM_ID: abdellatif
+    :END:
+
+/Karim M. Abdellatif et Olivier Hériveaux (Ledger)/
+
+/Résumé/.
+Fault injection attacks influence the computation performed by the device in a way that allows bypassing specific security mechanisms. Multiple fault attacks are used to bypass multi-level countermeasures. In this talk, we present an example of how multiple faults can be performed practically using low-cost tools. Moreover, we highlight specific steps in order to increase the success rate of the multiple fault attack.
+
+
+
+
+*** Analyse et placement de contremesures logicielles contre l'injection de faute en multi-faute
+    :PROPERTIES:
+    :CUSTOM_ID: boespflug
+    :END:
+
+/Etienne Boespflug (Verimag / Grenoble Alpes Cybersecurity Institute)/
+
+/Résumé/. Le passage au multi-faute apporte des problématiques nouvelles en terme d'évaluation de la robustesse d'une application et de construction d'applications robustes. En effet l'approche consistant à trouver des attaques puis  ajouter une contre-mesure puis montrer la robustesse de l'application atteint ses limites, les contre-mesures         pouvant être attaquées à leur tour.
+
+Nous proposons une méthodologie permettant d'évaluer des contre-mesures en multi-fautes en terme d'efficacité (qui bloquent réellement des attaques) basé sur l'outil Lazart qui permet d'analyser du code LLVM en multi-fautes par  exécution symbolique. Nous illustrons cette approche dans le cadre de contre-mesures ajoutées automatiquement par des outils visant à surveiller le flot de contrôle. L'objectif à terme est d'aider au placement de contre-mesures.
+
+*** Discussion of the laser and EM Instruction Skip Fault Models
+    :PROPERTIES:
+    :CUSTOM_ID: #dutertre
+    :END:
+
+/Jean-Max Dutertre (École des Mines de Saint-Etienne - Gardanne)/,
+Alexandre Menu, Timothé Riom, Olivier Potin, Jean-Baptiste Rigaud.
+
+/Résumé/.
+Nous proposons dans cette présentation une discussion du modèle de faute associé aux sauts d'instructions dans les microcontroleurs.
+Nous décrivons les caractéristiques principales des sauts d'instructions obtenus expérimentalement à partir de pertubations laser ou electromagnétique.
+La connaissance des caractéristiques des fautes pouvant être obtenues (répétitivité, étendue, etc.) est essentielle pour les travaux de modélisation des attaques et la mise au point de contre-mesures.
+
+*** BISM: Bytecode-Level Instrumentation for Software Monitoring
+    :PROPERTIES:
+    :CUSTOM_ID: falcone
+    :END:
+
+/Chukri Soueidi, Ali Kassem, and Ylies Falcone (INRIA / Corse)/
+
+/Résumé/.
+BISM (Bytecode-Level Instrumentation for Software Monitoring) is a lightweight Java bytecode instrumentation tool which features an expressive high-level control-flow-aware instrumentation language. The language follows the aspect-oriented programming paradigm by adopting the joinpoint model, advice inlining, and separate instrumentation mechanisms. BISM provides joinpoints ranging from bytecode instruction to method execution, access to comprehensive context information, and instrumentation methods. BISM runs in two modes: build-time and load-time. We demonstrate BISM effectiveness using two experiments: a security scenario where we detect fault-injection attacks and a general runtime verification case. The results show that BISM instrumentation incurs low runtime and memory overheads.
+
+/Bio/.
+Yliès Falcone received the Master degree (2006) and PhD (2009) in
+computer science from the University of Grenoble at Vérimag
+Laboratory. His research interests concern formal software engineering
+and runtime validation techniques for various application domains,
+i.e. techniques aiming at evaluating whether a system meets a set of
+desired properties at runtime.  He is a member of the Steering
+Committees of the Runtime Verification conference and the Software
+Verification and Testing track of the ACM Symposium on Applied
+Computing.  He has cofounded the competition of tools on Runtime
+Verification.  He was an invited researcher in several places such as
+NASA JPL in Pasadena (USA), NICTA Canberra (Australia), Manchester
+University and University of Illinois at Urbana Champaign (USA).
+Since September 2011, he is an associate professor at University of
+Grenoble and a researcher at Laboratory of Informatics Grenoble.
+
+*** Bridging the Gap between RTL and Software Fault Injection: a Methodology for Accurate Fault Modeling
+    :PROPERTIES:
+    :CUSTOM_ID: laurent
+    :END:
+
+/Johan Laurent (LCIS)/
+
+/Résumé/.
+Protecting programs against hardware fault injection requires accurate software fault models. But typical models such as the instructions skip do not take into account the microarchitecture specificities of a processor, which can lead to unpredictable attacks. We propose in this talk a methodology to precisely model faults at the software level by comparing results from RTL simulations and software injection (using a program mutation tool). Various analyses are performed in this methodology to give insight on the relevance of software fault models, such as coverage and reliability analyses, and linking models to injection parameters.
+
+*** Propagation et péservation de propriétés dans un flot de compilation optimisant et applications à la préservation de protections contre les attaques en fautes
+    :PROPERTIES:
+    :CUSTOM_ID: vu
+    :END:
+
+/Son Tuan Vu (Sorbonne Université / LIP6)/
+
+/Résumé/.
+Le besoin de vérifier des propriétés de sécurité ou fonctionnelles des applications a répandu l’usage d’annotations (e.g. ACSL). Lorsque cette vérification a lieu au niveau binaire, il est nécessaire de transporter et transposer ces propriétés portant sur le code source au niveau du code compilé. La préservation de propriétés tout au long du flot de compilation est un problème difficile à cause des optimisations qui réorganisent les calculs ou éliminent les variables inutiles.
+
+Dans cet exposé, nous présenterons une approche permettant de propager et préserver des propriétés fonctionnelles tout au long d'un flot de compilation optimisant sans modifier les passes d'optimisation du compilateur. Dans notre implémentation dans LLVM, les propriétés sont émises dans le code binaire sous forme d'information de débug DWARF permettant leur utilisation par des outils d'analyse binaire. Nous montrerons comment notre approche et les mécanismes sur lesquelles elle repose peuvent être utilisés pour préserver des protections contre les attaques en faute insérées dans le code source tout en activant les optimisations du compilateur.
+
+*** Méthodologie d'évaluation de la vulnérabilité aux attaques par fautes multiples
+    :PROPERTIES:
+    :CUSTOM_ID: werner
+    :END:
+
+/Vincent Werner (Université Grenoble Alpes / VERIMAG)/
+
+/Résumé/.
+En perturbant à plusieurs reprises l'exécution d'une application embarquée sur un microcontrôleur, les attaques par fautes multiples sont redoutables pour venir à bout de contremesures matérielles et logicielles. Cependant, la mise en pratique de ce type d'attaque reste difficile. Dans cet exposé, nous présenterons une méthodologie d'attaque par fautes multiples avec une connaissance partielle de la cible. Cette méthodologie est générique et repose sur l'inférence de modèles à partir des fautes observées et sur la simulation d'injection de fautes au niveau ISA. Nous détaillerons chaque étape en nous appuyant sur des exemples pratiques, depuis la revue de code jusqu'à l'exploitation de l'attaque.

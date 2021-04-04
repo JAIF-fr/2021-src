@@ -1,0 +1,33 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+title: JAIF 2020
+
+* Inscription
+
+
+# # Le formulaire d'inscriptions n'est pas encore ouvert.
+# [[https://framaforms.org/jaif-2020-inscription-1579194393][Pour vous inscrire, complétez le formulaire à cette adresse]].
+
+*Si vous ne pouvez plus participer après inscrition, merci de nous en
+faire part rapidement*.
+Ceci nous permettra de mieux calibrer la logistique de la journée.
+
+
+[2020-09-22 mar.]
+*Les inscriptions sont closes.  Contactez le comité de programme.*
+
+# La journée est gratuite mais les inscriptions sont obligatoires et le
+# nombre de participants est limité à la capacité d'accueil de la salle.
+# Les inscriptions seront closes dès que la capacité d'accueil de la
+# salle sera atteinte, et au plus tard le 10 mars.
+
+# [[https://framaforms.org/jaif-2020-inscription-1579194393][Pour vous inscrire, complétez le formulaire à cette adresse]].
+
+# *Si vous ne pouvez plus participer après inscrition, merci de nous en
+# faire part rapidement*.
+# Ceci nous permettra de mieux calibrer la logistique de la journée.
+
+
+
+
+Contact: [[mailto:jaif@saxifrage.saclay.cea.fr?subject=%5Binscription%5D][jaif@saxifrage.saclay.cea.fr]]
