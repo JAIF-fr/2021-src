@@ -3,8 +3,8 @@ version:            0.1
 build-type:         Simple
 cabal-version:      >= 1.10
 
-executable site
-  main-is:          site.hs
+executable website-generator
+  main-is:          website-generator.hs
   hs-source-dirs:   src
   build-depends:    base == 4.*
                   , directory
