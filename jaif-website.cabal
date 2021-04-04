@@ -1,4 +1,4 @@
-name:               jaif2020-website
+name:               jaif-website
 version:            0.1
 build-type:         Simple
 cabal-version:      >= 1.10
