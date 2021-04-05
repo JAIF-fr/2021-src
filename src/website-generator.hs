@@ -113,11 +113,11 @@ main = do
 
 feedConfiguration :: FeedConfiguration
 feedConfiguration = FeedConfiguration
-    { feedTitle = "JAIF 2020"
-      , feedDescription = "JAIF 2020"
+    { feedTitle = "JAIF 2021"
+      , feedDescription = "JAIF 2021"
       , feedAuthorName = "Damien Couroussé"
       , feedAuthorEmail = "damien.courousse@cea.fr"
-      , feedRoot = "https://jaif2020.github.io"
+      , feedRoot = "https://jaif-fr.github.io"
     }
 
 -- Context builders
