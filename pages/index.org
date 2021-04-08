@@ -61,8 +61,10 @@ travers de présentations et de discussions.
 
 ** Comité d'organisation
 
++   Vincent Béroulle, LCIS
 +   Guillaume Bouffard,  ANSSI (local chair)
 +   Damien Couroussé, CEA
++   Jean-Max Dutertre, ENSMSE - CMP
 +   Sylvain Guilley, Telecom ParisTech / Secure-IC
 +   Karine Heydemann, Sorbonne Université / LIP6
 +   Marie-Laure Potet, VÉRIMAG,  Grenoble Alpes Cybersecurity Institute
