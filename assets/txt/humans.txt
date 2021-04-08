@@ -1,6 +1,6 @@
 /* TEAM */
 Name: Damien Couroussé
-Site: jaif-fr.github.io
+Site: jaif.io
 Location: Paris, France
 
 /* THANKS */

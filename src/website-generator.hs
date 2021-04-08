@@ -117,7 +117,7 @@ feedConfiguration = FeedConfiguration
       , feedDescription = "JAIF 2021"
       , feedAuthorName = "Damien Couroussé"
       , feedAuthorEmail = "damien.courousse@cea.fr"
-      , feedRoot = "https://jaif-fr.github.io/2021"
+      , feedRoot = "https://jaif.io/2021"
     }
 
 -- Context builders
