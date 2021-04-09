@@ -66,10 +66,10 @@ travers de présentations et de discussions.
 +   Vincent Béroulle, LCIS
 +   Guillaume Bouffard,  ANSSI -- ENS (local chair)
 +   Damien Couroussé, CEA
-+   Jean-Max Dutertre, ENSMSE - CMP
-+   Sylvain Guilley, Telecom ParisTech / Secure-IC
-+   Karine Heydemann, Sorbonne Université / LIP6
-+   Marie-Laure Potet, VÉRIMAG,  Grenoble Alpes Cybersecurity Institute
++   Jean-Max Dutertre, ENSMSE -- CMP
++   Sylvain Guilley, Telecom ParisTech -- Secure-IC
++   Karine Heydemann, LIP6, Sorbonne Université
++   Marie-Laure Potet, VÉRIMAG -- Grenoble Alpes Cybersecurity Institute
 
 Contact: [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]
 
