@@ -10,7 +10,9 @@
 <p style="text-align:center; font-weight: bold;">
 </p>
 <p class="alert" style="text-align:center; color: #3B31D9; line-height: 2em; font-size: x-large; font-weight: bold;">
-Jeudi 23 Septembre 2021, Paris + distanciel.
+Jeudi 23 Septembre 2021, Paris + distanciel
+<br>
+(sous réserve de confirmation).
 </p>
 <center>
 </center>
