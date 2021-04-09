@@ -64,7 +64,7 @@ travers de présentations et de discussions.
 ** Comité d'organisation
 
 +   Vincent Béroulle, LCIS
-+   Guillaume Bouffard,  ANSSI (local chair)
++   Guillaume Bouffard,  ANSSI -- ENS (local chair)
 +   Damien Couroussé, CEA
 +   Jean-Max Dutertre, ENSMSE - CMP
 +   Sylvain Guilley, Telecom ParisTech / Secure-IC
