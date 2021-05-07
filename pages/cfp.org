@@ -1,0 +1,29 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+#+title: JAIF -- Appel à contributions
+
+* Appel à contributions
+
+
+Jusqu’à cette année, le programme était concocté par le comité
+d’organisation par invitation. Cette année, le comité d’organisation a
+décidé d’ouvrir en partie le programme en lançant un appel à
+proposition de présentation. Les présentations peuvent être faites en
+français ou en anglais, en présentiel ou à distance.
+
+Si vous souhaitez présenter vos travaux, il suffit d'envoyer avant le
+31 mai 2021 [[mailto:jaif@saxifrage.saclay.cea.fr?subject=CfP: ][un mail au comité d'organisation]] précisant :
+
+    - un résumé de votre présentation (de 15 lignes à une page max. au format libre),
+    - l’orateur pressenti,
+    - la langue de présentation (français ou anglais).
+
+
+Les propositions seront sélectionnées sur la base d'un équilibre entre
+les thématiques couvertes, les travaux préliminaires et les résultats
+aboutis.
+
+*** Dates importantes
+- Deadline pour l’envoi de résumé : 31 mai 2021
+- Réponse aux auteurs  : 15 juin 2021
+- JAIF : 23 septembre 2021

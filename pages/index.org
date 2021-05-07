@@ -60,6 +60,14 @@ Le [[./programme.html][programme de cette journée]] est construit de sorte à f
 échanges entre les participants sur l’ensemble de ces sujets, au
 travers de présentations et de discussions.
 
+** Appel à contributions
+
+
+Nous mettons cette année en place un appel
+à contribution. [[./cfp.html][Voir la page dédiée]].
+
+
+
 ** Comité d'organisation
 
 +   Vincent Béroulle, LCIS
