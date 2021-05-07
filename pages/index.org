@@ -20,15 +20,12 @@ Jeudi 23 Septembre 2021, Paris + distanciel.
 # Amphi Dussane, Ecole Normale Supérieure, 45 rue d’Ulm.  Paris Ve.
 # </p>
 
-
 # *[[./inscription.html][Réservez la date et inscrivez-vous !]]*
 Nous prévoyons un évènement en présentiel avec la possibilité de
 participer à distance. Suivant l’évolution des règles sanitaires nous
 pourrons être amenés à faire tout en distanciel.
 
-
 ** Description
-
 
 Ce workshop a pour objectif de réunir la communauté de la recherche
 française en analyse de fautes sur des systèmes de sécurité, pour
@@ -62,11 +59,8 @@ travers de présentations et de discussions.
 
 ** Appel à contributions
 
-
 Nous mettons cette année en place un appel
 à contribution. [[./cfp.html][Voir la page dédiée]].
-
-
 
 ** Comité d'organisation
 
@@ -145,3 +139,37 @@ Contact: [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]
 # </p>
 # </center>
 # #+END_EXPORT
+
+** Sponsors
+
+JAIF est parrainé par :
+- [[https://www.arm.com][ARM]],
+- [[https://www.idemia.com][IDEMIA]],
+- [[https://www.invia.fr][INVIA]], a Thales Company
+- [[https://www.ledger.com][Ledger]],
+- [[https://www.serma-safety-security.com][Serma Safety & Security]].
+
+#+BEGIN_EXPORT html
+<center>
+<p>
+<a href="https://www.arm.com">
+<img src="./media/logo_ARM.png" alt="Logo ARM" title="ARM" data-align="center" height="80" /></a>
+
+ 
+<a href="https://www.idemia.com">
+<img src="./media/logo_IDEMIA.png" alt="Logo IDEMIA" title="IDEMIA" data-align="center" height="80" /></a>
+
+ 
+<a href="https://www.invia.fr">
+<img src="./media/logo_INVIA.jpeg" alt="Logo INVIA" title="INVIA, a Thales Company" data-align="center" height="80" /></a>
+
+ 
+<a href="https://www.ledger.com">
+<img src="./media/logo_Ledger.png" alt="Logo Ledger" title="Ledger" data-align="center" height="80" /></a>
+
+ 
+<a href="https://www.serma-safety-security.com">
+<img src="./media/logo_Serma.jpg" alt="Logo Serma" title="Serma" data-align="center" height="80" /></a>
+</p>
+</center>
+#+END_EXPORT
