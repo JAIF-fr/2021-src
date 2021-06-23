@@ -1,7 +1,375 @@
 #+STARTUP: showall
 #+OPTIONS: toc:nil
-#+title: JAIF
+#+title: JAIF 2021 -- programme
 
-* Programme
 
-tbd
+
+
+Le programme de la journée est aménagé pour maximiser les interactions
+entre les participants.  Les présentations de chaque session auront
+vocation à être ouvertes aux interactions avec l'assemblée, et un
+temps de questions et de discussions sera réservé à la fin de chaque
+session.
+
+La journée est organisée en *présentiel* à l'ENS, et en *virtuel* sur
+Zoom.  Un mail contenant les informations de connexion sera envoyé
+quelques jours avant la journée à tous les participants inscrits.
+
+
+*Le programme de la journée sera précisé dans les semaines à venir.*
+
+# En présentiel, tous les participants devront respecter les règles
+# sanitaires en usage, en particulier le port du masque.  Pour la pause
+# déjeuner, il ne sera pas prévu de restauration sur place, mais de
+# nombreuses possibilités de restauration sont possibles à proximité
+# immédiate de l'ENS.
+
+# | 09h50 |                                               | Ouverture de la salle                                                                                                                                         |                   |
+# | 10h00 | Guillaume Bouffard                            | *Ouverture de la journée*                                                                                                                                     | [[[file:media/JAIF2020_introduction.pdf][slides]]]          |
+# | 10h10 | *Session 1*                                   | *Injection de fautes et modélisation*                                                                                                                         |                   |
+# |       | Jean-Max Dutertre                             | Discussion of the laser and EM Instruction Skip Fault Models                                                                                                  | [[[#dutertre][résumé]]] [[[file:media/JAIF2020_Dutertre.pdf][slides]]] |
+# |       | Karim M. Abdellatif et Olivier Hériveaux      | Keep it Cheap: Multiple Faults Attacks in Practice                                                                                                            | [[[#abdellatif][résumé]]] [[[file:media/JAIF2020_Abdellatif.pdf][slides]]] |
+# |       | Vincent Werner                                | Méthodologie d'analyse de vulnérabilité en presence de faute multiple                                                                                         | [[[#werner][résumé]]] [[[file:media/JAIF2020_Werner.pdf][slides]]] |
+# |       |                                               | Q&R                                                                                                                                                           |                   |
+# | 11h25 |                                               | /Pause/                                                                                                                                                       |                   |
+# | 11h35 | *Session 2*                                   | *Questions ouvertes sur la sécurité des systèmes*                                                                                                             |                   |
+# |       | Christophe Evrard                             | A journey to Soft IP Common Criteria Certification                                                                                                            | [[[file:media/JAIF2020_Evrard.pdf][slides]]]          |
+# |       | +José Lopes-Esteves+                          | +AGREMI, EMFI et CEM+                                                                                                                                         |                   |
+# |       |                                               | Q&R                                                                                                                                                           |                   |
+# | 12h00 |                                               | /Déjeuner ---pas de restauration sur place---/                                                                                                                |                   |
+# | 13h30 | *Session 3*                                   | *Protections logicielles*                                                                                                                                     |                   |
+# |       | Chukri Soueidi, Ali Kassem, and Ylies Falcone | BISM: Bytecode-Level Instrumentation for Software Monitoring                                                                                                  | [[[#falcone][résumé]]] [[[file:media/JAIF2020_Soueidi.pdf][slides]]] |
+# |       | Son Tuan Vu                                   | Propagation et péservation de propriétés dans un flot de compilation optimisant et applications à la préservation de protections contre les attaques en faute | [[[#vu][résumé]]] [[[file:media/JAIF2020_Vu.pdf][slides]]] |
+# |       | Étienne Boespflug                             | Analyse et placement de contremesures logicielles contre l'injection de faute en multi-faute                                                                  | [[[#boespflug][résumé]]] [[[file:media/JAIF2020_Boespflug.pdf][slides]]] |
+# |       |                                               | Q&R                                                                                                                                                           |                   |
+# | 14h45 |                                               | /Pause/                                                                                                                                                       |                   |
+# | 15h00 | *Session 4*                                   | *Architecture et exploitabilité*                                                                                                                              |                   |
+# |       | Johan Laurent                                 | Bridging the Gap between RTL and Software Fault Injection: a Methodology for Accurate Fault Modeling                                                          | [[[#laurent][résumé]]] [[[file:media/JAIF2020_Laurent.pdf][slides]]] |
+# |       | Thomas Trouchkine                             | Perturbation attacks on modern CPU, from the fault model to the exploitation                                                                                  | [[[file:media/JAIF2020_Trouchkine.pdf][slides]]]          |
+# |       |                                               | Q&R                                                                                                                                                           |                   |
+# | 15h45 | Comité d'organisation                         | *Clôture de la journée*                                                                                                                                       |                   |
+
+*** Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack
+    :PROPERTIES:
+    :CUSTOM_ID: tasso
+    :END:
+
+*Élise Tasso* /(CEA-Leti),/
+/Luca De Feo (CEA-Tech),/
+/Nadia El Mrabet (Mines Saint-Étienne),/
+/Simon Pontié (CEA-Tech)/
+
+The threat of quantum computers has sparked the development
+of a new kind of cryptography to resist their attacks. Isogenies
+between elliptic curves are one of the tools used for such
+cryptosystems. They are championed by SIKE (Supersingular isogeny key
+encapsulation), an "alternate candidate" of the third round of the
+NIST Post-Quantum Cryptography Standardization Process.  While all
+candidates are believed to be mathematically secure, their
+implementations may be vulnerable to hardware attacks. In this work we
+investigate for the first time whether Ti’s 2017 theoretical fault
+injection attack is exploitable in practice. We also examine suitable
+countermeasures. As controlling precisely the time for the fault
+injection is not necessary in this attack, it is possible to choose a
+system on chip (SoC) as the target. Indeed, SoCs are known for their
+poorly predictable latency of execution. We manage to recover the
+secret thanks to electromagnetic fault injection on a SoC with four
+cortex A53 cores using a correct and an altered public key
+generation. Moreover we propose a suitable countermeasure to detect
+faults that has a low overhead as it takes advantage of a redundancy
+already present in SIKE implementations.
+
+*** TBD
+    :PROPERTIES:
+    :CUSTOM_ID: esteves
+    :END:
+
+*Jose Lopes Esteves* /(ANSSI)/
+
+*** EMFI sur SoC
+    :PROPERTIES:
+    :CUSTOM_ID: gaine
+    :END:
+
+*Clément Gaine* /(CEA-Tech)/
+
+Les smartphones disposent d’une architecture logicielle et matérielle
+complexes. L’accès à leurs données peut aider à résoudre certaines
+enquêtes judiciaires. La plupart des techniques connues aujourd’hui
+pour extraire des informations depuis ces dispositifs mobiles, sont
+basées sur l’exploitation des failles logicielles, sauf que celles-ci
+peuvent rapidement être corrigées, contrairement aux failles d’ordre
+matérielles. Ici, nous proposons donc une nouvelle technique
+d’élévation de privilège afin d’accéder aux contenus cachés et
+d’exécuter des opérations sensibles, par exploitation d’une
+vulnérabilité matérielle.
+
+L’injection de fautes électromagnétique a été principalement utilisée
+pour la caractérisation sécuritaire des microcontrôleurs et FPGA. Or,
+à l’aide de cette technique nous avons réussi à modifier le
+comportement d’une fonction de sécurité sur un System-on-Chip 64 bits
+fonctionnant à 1.2GHz avec un système d’exploitation Linux. Nous avons
+identifié comme cible le module d’authentification Linux qui compare
+le mot de passe stocké en mémoire et celui entré par l’utilisateur. Ce
+module est appelé par la fonction « su », et une sortie prématurée de
+la comparaison permet de réussir l’authentification.
+
+Ces travaux sont considérés comme une nouvelle approche,
+potentiellement valorisable dans le domaine des fouilles légales des
+données numériques : Forensic.
+
+*** titre TODO -- Software Fault Injection at Runtime
+    :PROPERTIES:
+    :CUSTOM_ID: deferriere
+    :END:
+
+   *François de Ferrière* /(STMicroelectronics)/
+
+We present a tool developed at STMicroelectronics to perform software
+fault injection at runtime. The objectives are twofold. First, we want
+to test the reliability of embedded applications protected by software
+countermeasures. Second, we use this tool as a means to test SecSwift,
+an extension of the LLVM compiler specifically developed to automate
+countermeasure implementation.
+
+Our tool relies on GDB and on a set of Python scripts to inject faults
+during the simulated execution of a program. Thanks to a careful
+implementation and the possibility to massively parallelize
+executions, our tool is able to handle applications up to a few
+thousand lines.
+
+For the first objective, we will give an overview of the
+implementation. We will also detail the results obtained on the
+qualification of applications protected by software countermeasures.
+
+Concerning the second objective, the analysis of fault injections not
+detected by SecSwift countermeasures allowed us to understand and fix
+a number of weaknesses in the implementation of the compiler
+module. Moreover, large scale test campaigns have also revealed the
+existence of code generation patterns where usual and well known
+software counter-measures do not provide the expected level of
+protection.
+
+*** Hardware Security Evaluation of Embedded Applications Against Fault Injection Attack
+    :PROPERTIES:
+    :CUSTOM_ID: kazemi
+    :END:
+
+	*Zahra Kazemi* /(LCIS, Université Grenoble Alpes)/
+
+Fault Injection Attacks (FIA) are one of the security threats which
+can be utilized to manipulate or disturb the normal behavior of the
+embedded systems.  Therefore, in the context of SERENE-IoT project, we
+aimed to propose an evaluation platform and approach to exploit the
+software vulnerabilities of a medical embedded application. FIA can be
+assessed either by experimentation or simulation. For the experimental
+evaluation, we have developed a hardware evaluation platform named as
+”HackmyMCU”, which focuses on the clock glitch- ing FIA. It consists
+of three main units of 1) Configuration Interface to adjust the fault
+generator with proper parameters and to initialize the target
+processor, 2) Fault Generator to create the faulty signals with the
+specified parameters from the configuration interface, and 3) Analyzer
+Interface which exploits and analyzes the
+vulnerabilities. Nevertheless, the analysis of experimental results
+does not always provide enough details to develop fine-grained
+countermeasures due to the lack of internal observation. On the other
+hand, simulation is a flexible and adaptive way to perform FIA
+campaigns concerning particular fault models, allowing observing the
+system behavior in detail. However, it can be time-consuming and can
+generate biased or inaccurate results due to modeling issues compared
+to the experimental approach.
+
+Our work leverages both the experimental and simulation-based FIA
+approaches to analyze the vulnerabilities of C functions processed by
+a RISC-V- based embedded system. The openness of this target helps to
+create flexible solutions to defend against the
+susceptibilities. First, an experimental fault injection campaign with
+our platform is done to identify the sensitive parts of a given
+program. Then, an open-source simulation framework is used and adapted
+to perform a ISA-level simulation-based fault injection campaign on
+the identified sensitive parts (or functions). This simulation uses
+specific fault models to precisely identify the underlying faulty
+operations within the architecture corresponding to the experimentally
+observed faulty behavior. The simulation results are then further
+exploited to fine-tune the experimental fault injection campaign
+parameters to reveal more vulnerabilities within the initial
+application. The results can guide the software developer to utilize
+proper countermeasures and mitigate the system security
+vulnerabilities.
+
+*** About the scaling of EMFI probes
+    :PROPERTIES:
+    :CUSTOM_ID: toulemont
+    :END:
+
+	*Julien Toulemont* /(LIRMM),/
+        /Philippe Maurine (LIRMM)/
+
+Electromagnetic fault injection (EMFI) is a quite recent fault
+injection technique compared to laser fault injection, which has
+gained in popularity these last years. Its increasing popularity can
+be probably explained by its inherent advantages among which the
+limited required preparation of devices can be viewed as the main
+one. The principle of EMFI is simple. It consists in generating a
+powerful EM pulse in the close vicinity of ICs. To that aim a voltage
+pulse generator is used to induce a sudden current variation in
+probes, i.e. coils made of several wire turns around a ferrite
+core. However, EMFI is considered as a fault injection technique with
+a poor spatial resolution mainly because EMFI probes are quite
+large. Increasing the spatial resolution of EMFI could be achieved by
+reducing the dimensions of probes. However, such a task is difficult
+and implies using more powerful voltage generators. Among the
+challenges, the first one is to determine how should be scaled the
+voltage pulse generators with the scaling of probe dimensions. This
+paper addresses this question from theoretical and practical point of
+views and show EMFI results obtained with 50µm EMFI probes.
+
+*** Specific Verification System for Open-Source ISA RISC-V Cores
+    :PROPERTIES:
+    :CUSTOM_ID: zgheib
+    :END:
+
+	*Anthony Zgheib*	/(EMNSE Gardanne)/
+
+Physical attacks are particularly effective threats to strike
+confidentiality, integrity or authenticity of the systems. Several
+protections have been proposed such as software-based or
+hardware-based monitoring of programs’ Control Flow Integrity
+(CFI). The CFI verification refers to techniques designed to ensure
+that, at runtime, the execution follows an execution path in the
+application that is a priori known to be correct. Among the well-known
+attack models, we can mention code injection (shell-code), data
+writing attacks and application code modification. To take these
+threats into consideration, we developed a specific verification
+system for open source ISA RISC-V cores. This verification system is
+based on the standardized RISC-V trace encoder [1] and on an
+additional designed unit named: trace verifier. The trace encoder,
+connected to the RISC-V core, has an objective to record and compress
+the code discontinuities like jump and branch operations, then to
+generate a trace containing metadata about the actual executed
+discontinuity instruction with respect to the previous one. Gradually,
+the trace verifier receives the traces sent from the trace encoder and
+compares them to static metadata stored in the trace verifier. These
+metadata are generated, beforehand, from a static data analysis of the
+program code. It contains information about the discontinuities
+including their addresses, corresponding instructions, possible
+branches for branch conditions, jump addresses for jump instructions,
+etc.
+
+From the trace verifier’s comparison, we can detect if a fault
+injection attack was induced on discontinuity instructions. With our
+actual trace verifier model, we can detect the following three threat
+models:
++ A skip on branch or jump instructions.
++ Their substitution with other instructions.
++ Changing the return address for a return instruction
+  [return-oriented programming (ROP) attacks].
+Our perspective is to upgrade this solution to verify all the program
+code executed instructions and check that they are unaltered within
+the core’s pipeline against these attacks. This is known as verifying
+the Control Flow and Execution Integrity (CFEI) of the program. This
+research is carried out in the framework of the ANR COFFI project
+(ANR-18-CE39-0003).
+
+*** SCI-FI - Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks
+    :PROPERTIES:
+    :CUSTOM_ID: chamelot
+    :END:
+
+   *Thomas Chamelot* /(CEA-List),/
+   /Damien Couroussé (CEA-List),/
+   /Karine Heydemann (Sorbonne Université, LIP6)/
+
+
+
+Fault injection attacks are known to be able to tamper with the code and the control flow of a program. Several counter-measures have been proposed to thwart such attacks [1,2,4,5].  However, recent work highlights that some vulnerabilities exist in the microarchitecture [3], suggesting that the whole pipelined execution of instructions inside the processor also needs to be protected.  Such execution integrity is not covered by state-of-the-art approaches.
+
+We present SCI-FI, a counter-measure against fault injection attacks that guarantees simultaneously code integrity, control flow integrity and execution integrity. SCI-FI is a mixed hardware and software counter-measure. It combines sequentially two techniques: a signature-based approach and a duplication-based one.  Code integrity and control flow integrity are ensured by the signature-based approach, which needs compiler support as well as additional custom instructions. The duplication-based approach guarantees execution integrity until the end of the execution pipeline. The security level provided by SCI-FI highly depends on the signature function as well as the size of the reference signatures. SCI-FI can be implemented with several signature functions, as the properties of the signature function imply a trade off between security (e.g., number of bit flips that can be detected) and silicon area overhead. It may also impact code size and code slowdown. We also illustrate how signature constructs based on cryptography can also support other security properties, such as authentication.
+
+In this talk, we will present our SCI-FI solution as well as its implementation in a RISC-V core with two different signature functions. We will present evaluation results regarding the overheads in terms of silicon area, code size and execution time. These results show that our countermeasure is competitive regarding existing code and control flow integrity approaches, while also providing control signal integrity.  To the best of our knowledge, our countermeasure is the first to cover fault injections targeting the processor microarchitecture.
+
+1. J.-L. Danger et al., “Processor Anchor to Increase the Robustness Against Fault Injection and Cyber Attacks,” in Constructive Side-Channel Analysis and Secure Design, vol. 12244, G. M. Bertoni and F. Regazzoni, Eds. Cham: Springer International Publishing, 2021, pp. 254–274.
+2. O. Savry, M. El-Majihi, and T. Hiscock, “Confidaent: Control FLow protection with Instruction and Data Authenticated Encryption,” in 2020 23rd Euromicro Conference on Digital System Design (DSD), Kranj, Slovenia, Aug. 2020, pp. 246–253, doi: 10.1109/DSD51259.2020.00048.
+3. J. Laurent, V. Beroulle, C. Deleuze, F. Pebay-Peyroula, and A. Papadimitriou, “Cross-layer analysis of software fault models and countermeasures against hardware fault attacks in a RISC-V processor,” Microprocessors and Microsystems, vol. 71, p. 102862, Nov. 2019, doi: 10.1016/j.micpro.2019.102862.
+4. M. Werner, T. Unterluggauer, D. Schaffenrath, and S. Mangard, “Sponge-Based Control-Flow Protection for IoT Devices,” arXiv:1802.06691 [cs], Feb. 2018, Accessed: Dec. 03, 2019. [Online]. Available: http://arxiv.org/abs/1802.06691.
+5. R. de Clercq et al., “SOFIA: Software and control flow integrity architecture,” in 2016 Design, Automation Test in Europe Conference Exhibition (DATE), Mar. 2016, pp. 1172–1177.
+
+
+*** Méthodes pour la modélisation des injections de faute électromagnétiques
+    :PROPERTIES:
+    :CUSTOM_ID: trabelsi
+    :END:
+
+	*Oualid Trabelsi* /(Télécom ParisTech),/
+	/Laurent Savage	(Télécom ParisTech)/
+
+
+Les attaques par injection de faute électromagnétique (EMFI) ont
+suscité ces dernières années un vif intérêt, notamment pour leur
+facilité de mise en œuvre, car elles ne nécessitent pas a priori de
+préparer la cible de l'évaluation (TOE). Beaucoup de publications ont
+montré leur efficacité, mais peu ont essayé de modéliser l'impact au
+sein d'une TOE d'une injection électromagnétique, ce qui est pourtant
+un pré-requis pour l'évaluation formelle et l'amélioration des
+contre-mesures. Dans cette présentation, nous proposons tout d'abord
+trois méthodes de modélisation applicables aux microcontrôleurs,
+quelque soit le moyen d'injection (Laser, EMFI ,etc.), et permettant
+d'identifier :
+
+1. quels éléments de la microarchitecture (interface de la mémoire
+   non-volatile, mémoires de cache, bus interne, unité de protection
+   de la mémoire, pipeline, etc.) sont mis en faute ;
+2. pour chaque élément fauté, le modèle de faute au niveau bit
+   (bit-reset, bit-set, nosampling) ;
+3. pour les mémoires, la rémanence temporelle du modèle de faute
+   (transitoire, semi-persistante, persistance).
+
+Nous détaillons ensuite les résultats obtenus en appliquant les
+méthodes de modélisation à deux microcontrôleurs 32 bits différents,
+en utilisant deux plate-formes EMFI aux propriétés distinctes. Un des
+résultats les plus importants est qu'une seule injection peut fauter
+plusieurs instructions successives, ce qui remet en question la
+sécurité des contre-mesures protégeant vis-à-vis d'un saut unique
+d'instruction. Pour ces dernières, nous exposons toute une série de
+vulnérabilités, et proposons des solutions pour les corriger. Pour
+terminer, nous considérons les tirs multiples dans le temps, et
+montrons que près de 200 instructions successives peuvent être
+effacées avec un taux de succès de 50 %.
+
+
+*** titre TODO -- l'émulation post-silicon est-elle pertinente pour pré-qualifier un code?
+    :PROPERTIES:
+    :CUSTOM_ID: vinet
+    :END:
+
+	*Guillaume Vinet* /(eShard)/
+
+
+Dans le cadre du projet CSAFE+ (Circuits sécurisés contre les attaques
+par injection de fautes électromagnétique avancée), eShard a développé
+un outil de simulation et d'injection de faute post-silicon :
+esFaulter. L'intérêt de cette simulation est double. Le premier est de
+pré-qualifier le code en amont d'une campagne de test sur la cible
+matérielle, campagne qui peut s'avérer longue et complexe à mettre en
+place. Le deuxième bénéfice réside dans le fait de permettre une
+interprétation des fautes obtenues sur la cible finale dans l'optique
+d’itérer les corrections jusqu’à obtenir une protection contre les
+fautes efficace.
+
+De nombreux paramètres entrent en jeu lors de la simulation (modèle de
+faute utilisé, élément à attaquer…), une méthodologie d'analyse est
+donc indispensable pour profiter des bienfaits de cette
+approche. Cependant, même avec une bonne stratégie, une question
+importante se pose : l'émulation post-silicon est-elle pertinente pour
+pré-qualifier un code ?
+
+
+Pour répondre à cette problématique, nous avons, dans un premier
+temps, collecté des données réelles de perturbation en attaquant avec
+succès une implémentation logicielle d'un AES embarquée sur un
+System-on-Chip (SoC) moderne basé sur une architecture ARM A-53 via
+des attaques par perturbation. Nous avons ensuite appliqué la
+méthodologie en utilisant esFaulter sur ce bout de code afin
+d'interpréter les fautes obtenues. Nous avons ensuite comparé les deux
+campagnes afin d’apporter des réponses sur la pertinence et les
+limites d'une pré-qualification par simulation.
