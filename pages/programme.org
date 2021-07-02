@@ -300,8 +300,9 @@ In this talk, we will present our SCI-FI solution as well as its implementation 
     :CUSTOM_ID: trabelsi
     :END:
 
-	*Oualid Trabelsi* /(Télécom ParisTech),/
-	/Laurent Savage	(Télécom ParisTech)/
+	*Oualid Trabelsi* /(Télécom Paris),/
+	/Laurent Sauvage	(Télécom Paris),/
+	/Jean-Luc Danger	(Télécom Paris)/
 
 
 Les attaques par injection de faute électromagnétique (EMFI) ont
