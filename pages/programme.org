@@ -339,7 +339,7 @@ montrons que près de 200 instructions successives peuvent être
 effacées avec un taux de succès de 50 %.
 
 
-*** titre TODO -- l'émulation post-silicon est-elle pertinente pour pré-qualifier un code?
+*** l'émulation post-silicon est-elle pertinente pour pré-qualifier un code?
     :PROPERTIES:
     :CUSTOM_ID: vinet
     :END:
