@@ -55,9 +55,9 @@ quelques jours avant la journée à tous les participants inscrits.
     :END:
 
 *Élise Tasso* /(CEA-Leti),/
-/Luca De Feo (CEA-Tech),/
+/Luca De Feo (IBM Research),/
 /Nadia El Mrabet (Mines Saint-Étienne),/
-/Simon Pontié (CEA-Tech)/
+/Simon Pontié (CEA-Leti)/
 
 The threat of quantum computers has sparked the development
 of a new kind of cryptography to resist their attacks. Isogenies
@@ -74,7 +74,7 @@ injection is not necessary in this attack, it is possible to choose a
 system on chip (SoC) as the target. Indeed, SoCs are known for their
 poorly predictable latency of execution. We manage to recover the
 secret thanks to electromagnetic fault injection on a SoC with four
-cortex A53 cores using a correct and an altered public key
+Cortex-A53 cores using a correct and an altered public key
 generation. Moreover we propose a suitable countermeasure to detect
 faults that has a low overhead as it takes advantage of a redundancy
 already present in SIKE implementations.
