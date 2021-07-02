@@ -118,12 +118,13 @@ Ces travaux sont considérés comme une nouvelle approche,
 potentiellement valorisable dans le domaine des fouilles légales des
 données numériques : Forensic.
 
-*** titre TODO -- Software Fault Injection at Runtime
+*** Software Fault Injection Simulation
     :PROPERTIES:
     :CUSTOM_ID: deferriere
     :END:
 
-   *François de Ferrière* /(STMicroelectronics)/
+   *François de Ferrière* /(STMicroelectronics),/
+   /Thomas Bizet (STMicroelectronics)/
 
 We present a tool developed at STMicroelectronics to perform software
 fault injection at runtime. The objectives are twofold. First, we want
