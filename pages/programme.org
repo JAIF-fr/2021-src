@@ -24,30 +24,31 @@ quelques jours avant la journée à tous les participants inscrits.
 # nombreuses possibilités de restauration sont possibles à proximité
 # immédiate de l'ENS.
 
-# | 09h50 |                                               | Ouverture de la salle                                                                                                                                         |                   |
-# | 10h00 | Guillaume Bouffard                            | *Ouverture de la journée*                                                                                                                                     | [[[file:media/JAIF2020_introduction.pdf][slides]]]          |
-# | 10h10 | *Session 1*                                   | *Injection de fautes et modélisation*                                                                                                                         |                   |
-# |       | Jean-Max Dutertre                             | Discussion of the laser and EM Instruction Skip Fault Models                                                                                                  | [[[#dutertre][résumé]]] [[[file:media/JAIF2020_Dutertre.pdf][slides]]] |
-# |       | Karim M. Abdellatif et Olivier Hériveaux      | Keep it Cheap: Multiple Faults Attacks in Practice                                                                                                            | [[[#abdellatif][résumé]]] [[[file:media/JAIF2020_Abdellatif.pdf][slides]]] |
-# |       | Vincent Werner                                | Méthodologie d'analyse de vulnérabilité en presence de faute multiple                                                                                         | [[[#werner][résumé]]] [[[file:media/JAIF2020_Werner.pdf][slides]]] |
-# |       |                                               | Q&R                                                                                                                                                           |                   |
-# | 11h25 |                                               | /Pause/                                                                                                                                                       |                   |
-# | 11h35 | *Session 2*                                   | *Questions ouvertes sur la sécurité des systèmes*                                                                                                             |                   |
-# |       | Christophe Evrard                             | A journey to Soft IP Common Criteria Certification                                                                                                            | [[[file:media/JAIF2020_Evrard.pdf][slides]]]          |
-# |       | +José Lopes-Esteves+                          | +AGREMI, EMFI et CEM+                                                                                                                                         |                   |
-# |       |                                               | Q&R                                                                                                                                                           |                   |
-# | 12h00 |                                               | /Déjeuner ---pas de restauration sur place---/                                                                                                                |                   |
-# | 13h30 | *Session 3*                                   | *Protections logicielles*                                                                                                                                     |                   |
-# |       | Chukri Soueidi, Ali Kassem, and Ylies Falcone | BISM: Bytecode-Level Instrumentation for Software Monitoring                                                                                                  | [[[#falcone][résumé]]] [[[file:media/JAIF2020_Soueidi.pdf][slides]]] |
-# |       | Son Tuan Vu                                   | Propagation et péservation de propriétés dans un flot de compilation optimisant et applications à la préservation de protections contre les attaques en faute | [[[#vu][résumé]]] [[[file:media/JAIF2020_Vu.pdf][slides]]] |
-# |       | Étienne Boespflug                             | Analyse et placement de contremesures logicielles contre l'injection de faute en multi-faute                                                                  | [[[#boespflug][résumé]]] [[[file:media/JAIF2020_Boespflug.pdf][slides]]] |
-# |       |                                               | Q&R                                                                                                                                                           |                   |
-# | 14h45 |                                               | /Pause/                                                                                                                                                       |                   |
-# | 15h00 | *Session 4*                                   | *Architecture et exploitabilité*                                                                                                                              |                   |
-# |       | Johan Laurent                                 | Bridging the Gap between RTL and Software Fault Injection: a Methodology for Accurate Fault Modeling                                                          | [[[#laurent][résumé]]] [[[file:media/JAIF2020_Laurent.pdf][slides]]] |
-# |       | Thomas Trouchkine                             | Perturbation attacks on modern CPU, from the fault model to the exploitation                                                                                  | [[[file:media/JAIF2020_Trouchkine.pdf][slides]]]          |
-# |       |                                               | Q&R                                                                                                                                                           |                   |
-# | 15h45 | Comité d'organisation                         | *Clôture de la journée*                                                                                                                                       |                   |
+| 09h50 |                       | Ouverture de la salle                                                                      |
+| 10h00 | Guillaume Bouffard    | *Ouverture de la journée*                                                                  |
+| 10h10 | *Session 1*           | *Outils d'évaluation de la sécurité*                                                       |
+|       | [[#deferriere][François de Ferrière]]  | Software Fault Injection Simulation                                                        |
+|       | [[#vinet][Guillaume Vinet]]       | L'émulation post-silicon est-elle pertinente pour pré-qualifier un code?                   |
+|       | [[#kazemi][Zahra Kazemi]]          | Hardware Security Evaluation of Embedded Applications Against Fault Injection Attack       |
+|       |                       | Q&R                                                                                        |
+| 11h25 |                       | /Pause/                                                                                    |
+| 11h55 | *Session 2*           | *Attaques et contre-mesures*                                                               |
+|       | [[#zgheib][Anthony Zgheib]]        | Specific Verification System for Open-Source ISA RISC-V Cores                              |
+|       | [[#chamelot][Thomas Chamelot]]       | SCI-FI -- Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks |
+|       | [[#tasso][Élise Tasso]]           | Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack                |
+|       |                       | Q&R                                                                                        |
+| 13h10 |                       | /Déjeuner/                                                                                 |
+| 14h30 | *Session 3*           | *Injection de fautes électromagnétiques #1*                                                |
+|       | [[#esteves][José Lopes Esteves]]    |                                                                                            |
+|       | [[#toulemont][Julien Toulemont]]      | About the scaling of EMFI probes                                                           |
+|       |                       | Q&R                                                                                        |
+| 15h20 |                       | /Pause/                                                                                    |
+| 15h50 | *Session 4*           | *Injection de fautes électromagnétiques #2*                                                |
+|       | [[#trabelsi][Oualid Trabelsi]]       | Méthodes pour la modélisation des injections de faute électromagnétiques                   |
+|       | [[#gaine][Clément Gaine]]         | EMFI sur SoC                                                                               |
+|       |                       | Q&R                                                                                        |
+| 16h40 | Comité d'organisation | *Clôture de la journée*                                                                    |
+| 17h40 |                       | Fin de la journée                                                                          |
 
 *** Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack
     :PROPERTIES:
@@ -272,7 +273,7 @@ the Control Flow and Execution Integrity (CFEI) of the program. This
 research is carried out in the framework of the ANR COFFI project
 (ANR-18-CE39-0003).
 
-*** SCI-FI - Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks
+*** SCI-FI -- Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks
     :PROPERTIES:
     :CUSTOM_ID: chamelot
     :END:
