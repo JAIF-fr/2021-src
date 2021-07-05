@@ -48,7 +48,7 @@ quelques jours avant la journée à tous les participants inscrits.
 |       | [[#gaine][Clément Gaine]]         | EMFI sur SoC                                                                               |
 |       |                       | Q&R                                                                                        |
 | 16h40 | Comité d'organisation | *Clôture de la journée*                                                                    |
-| 17h40 |                       | Fin de la journée                                                                          |
+| 17h00 |                       | Fin de la journée                                                                          |
 
 *** Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack
     :PROPERTIES:
