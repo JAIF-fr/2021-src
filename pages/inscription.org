@@ -6,6 +6,12 @@
 
 
 Les inscriptions sont ouvertes!
+
+*La participation à la journée est gratuite mais l'inscription est
+obligatoire* pour l'organisation logistique de la journée.  Le nombre
+de participants en présentiel est limité par la capacité d'accueil de
+la salle (90 personnes).
+
 Le formulaire d'inscription est disponible
 [[https://framaforms.org/jaif-2021-1625215643][à cette adresse.]]
 
@@ -18,10 +24,6 @@ Ceci nous permettra de mieux calibrer la logistique de la journée.
 # [2020-09-22 mar.]
 # *Les inscriptions sont closes.  Contactez le comité de programme.*
 
-# # La journée est gratuite mais les inscriptions sont obligatoires et le
-# # nombre de participants est limité à la capacité d'accueil de la salle.
-# # Les inscriptions seront closes dès que la capacité d'accueil de la
-# # salle sera atteinte, et au plus tard le 10 mars.
 
 # # [[https://framaforms.org/jaif-2020-inscription-1579194393][Pour vous inscrire, complétez le formulaire à cette adresse]].
 
