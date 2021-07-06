@@ -64,13 +64,13 @@ Nous mettons cette année en place un appel
 
 ** Comité d'organisation
 
-+   Vincent Béroulle, LCIS
-+   Guillaume Bouffard,  ANSSI -- ENS (local chair)
-+   Damien Couroussé, CEA
-+   Jean-Max Dutertre, ENSMSE -- CMP
-+   Sylvain Guilley, Telecom ParisTech -- Secure-IC
-+   Karine Heydemann, LIP6, Sorbonne Université
-+   Marie-Laure Potet, VÉRIMAG -- Grenoble Alpes Cybersecurity Institute
++   Vincent Beroulle -- LCIS, Université Grenoble Alpes
++   Guillaume Bouffard (local chair) --  ANSSI, ENS
++   Damien Couroussé -- CEA-List, Université Grenoble Alpes
++   Jean-Max Dutertre -- MSE, Centre Microélectronique de Provence
++   Sylvain Guilley -- Telecom ParisTech, Secure-IC
++   Karine Heydemann -- LIP6, Sorbonne Université
++   Marie-Laure Potet -- VÉRIMAG, Grenoble Alpes Cybersecurity Institute
 
 Contact: [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]
 
