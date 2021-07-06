@@ -231,7 +231,7 @@ views and show EMFI results obtained with 50µm EMFI probes.
     :CUSTOM_ID: zgheib
     :END:
 
-	*Anthony Zgheib*	/(EMNSE Gardanne)/
+	*Anthony Zgheib*  /(MSE,  Centre Microélectronique de Provence)/
 
 Physical attacks are particularly effective threats to strike
 confidentiality, integrity or authenticity of the systems. Several
