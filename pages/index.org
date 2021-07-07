@@ -70,7 +70,7 @@ Nous mettons cette année en place un appel
 +   Jean-Max Dutertre -- MSE, Centre Microélectronique de Provence
 +   Sylvain Guilley -- Telecom ParisTech, Secure-IC
 +   Karine Heydemann -- LIP6, Sorbonne Université
-+   Marie-Laure Potet -- VÉRIMAG, Grenoble Alpes Cybersecurity Institute
++   Marie-Laure Potet -- VÉRIMAG, Grenoble INP
 
 Contact: [[mailto:jaif@saxifrage.saclay.cea.fr][jaif@saxifrage.saclay.cea.fr]]
 
