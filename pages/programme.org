@@ -39,7 +39,7 @@ quelques jours avant la journée à tous les participants inscrits.
 |       |                       | Q&R                                                                                        |
 | 13h10 |                       | /Déjeuner/                                                                                 |
 | 14h30 | *Session 3*           | *Injection de fautes électromagnétiques #1*                                                |
-|       | [[#esteves][José Lopes Esteves]]    |                                                                                            |
+|       | [[#esteves][José Lopes Esteves]]    | Interférences intentionnelles et attaques en faute : différentes similarités                |
 |       | [[#toulemont][Julien Toulemont]]      | About the scaling of EMFI probes                                                           |
 |       |                       | Q&R                                                                                        |
 | 15h20 |                       | /Pause/                                                                                    |
@@ -80,7 +80,7 @@ generation. Moreover we propose a suitable countermeasure to detect
 faults that has a low overhead as it takes advantage of a redundancy
 already present in SIKE implementations.
 
-*** TBD
+*** Interférences intentionnelles et attaques en faute : différentes similarités
     :PROPERTIES:
     :CUSTOM_ID: esteves
     :END:
