@@ -80,12 +80,34 @@ generation. Moreover we propose a suitable countermeasure to detect
 faults that has a low overhead as it takes advantage of a redundancy
 already present in SIKE implementations.
 
+
 *** Interférences intentionnelles et attaques en faute : différentes similarités
     :PROPERTIES:
     :CUSTOM_ID: esteves
     :END:
 
-*Jose Lopes Esteves* /(ANSSI)/
+*José Lopes Esteves* /(ANSSI)/
+
+Les attaques par injection de faute électromagnétique ont pour objectif
+l'exploitation des effets de perturbations électromagnétiques sur un système
+électronique afin d'en compromettre la sécurité de l'information traitée. La
+plupart du temps, la cible est un composant électronique et on considère que
+l'attaquant dispose de moyens d'injection de signal perturbateur au plus près
+(au contact parfois) de la cible.
+
+Dans le domaine des interférences électromagnétiques intentionnelles, l'objectif
+principal reste le même. Cependant, bien souvent, on considère des cibles allant
+de l'équipement électronique (système embarqué) aux systèmes de systèmes et que
+l'attaquant peut se trouver à plus grande distance. Cela suppose qu'il dispose
+de moyens d'émission lui permettant de prendre en compte les conditions de
+propagation.
+
+Ces domaines ont en commun l'étude du comportement de l'électronique soumise à
+des contraintes électromagnétiques particulières. Cependant, les modèles de
+menaces sont différents et les approches, pour la caractérisation notamment,
+reflètent ces nuances de point de vue. L'objectif de cette présentation sera de
+mettre en perspective ces domaines de recherche afin de tenter de faire émerger
+des problématiques communes.
 
 *** EMFI sur SoC
     :PROPERTIES:
