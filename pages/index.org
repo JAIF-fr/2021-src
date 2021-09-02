@@ -25,6 +25,11 @@ Nous prévoyons un évènement en présentiel avec la possibilité de
 participer à distance. Suivant l’évolution des règles sanitaires nous
 pourrons être amenés à faire tout en distanciel.
 
+
+*[2021-09-02 jeu.] Suite aux récentes règles gouvernementales
+concernant la COVID 19*, *vous devrez présenter un passe sanitaire
+valide pour assister à JAIF 2021*.
+
 ** Description
 
 Ce workshop a pour objectif de réunir la communauté de la recherche
