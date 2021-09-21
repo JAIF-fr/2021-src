@@ -370,34 +370,34 @@ effacées avec un taux de succès de 50 %.
     :CUSTOM_ID: vinet
     :END:
 
-	*Guillaume Vinet* /(eShard)/
-
+    /Lionel Rivière (eShard),/
+    /Aurélien Vasselle (eShard),/
+    *Guillaume Vinet* /(eShard)/
 
 Dans le cadre du projet CSAFE+ (Circuits sécurisés contre les attaques
 par injection de fautes électromagnétique avancée), eShard a développé
-un outil de simulation et d'injection de faute post-silicon :
-esFaulter. L'intérêt de cette simulation est double. Le premier est de
-pré-qualifier le code en amont d'une campagne de test sur la cible
-matérielle, campagne qui peut s'avérer longue et complexe à mettre en
+un outil de simulation et d’injection de faute post-silicon :
+esFirmware. L’intérêt de cette simulation est double. Le premier est
+de pré-qualifier le code en amont d’une campagne de test sur la cible
+matérielle, campagne qui peut s’avérer longue et complexe à mettre en
 place. Le deuxième bénéfice réside dans le fait de permettre une
-interprétation des fautes obtenues sur la cible finale dans l'optique
+interprétation des fautes obtenues sur la cible finale dans l’optique
 d’itérer les corrections jusqu’à obtenir une protection contre les
 fautes efficace.
 
 De nombreux paramètres entrent en jeu lors de la simulation (modèle de
-faute utilisé, élément à attaquer…), une méthodologie d'analyse est
+faute utilisé, élément à attaquer…), une méthodologie d’analyse est
 donc indispensable pour profiter des bienfaits de cette
 approche. Cependant, même avec une bonne stratégie, une question
-importante se pose : l'émulation post-silicon est-elle pertinente pour
+importante se pose : l’émulation post-silicon est-elle pertinente pour
 pré-qualifier un code ?
-
 
 Pour répondre à cette problématique, nous avons, dans un premier
 temps, collecté des données réelles de perturbation en attaquant avec
-succès une implémentation logicielle d'un AES embarquée sur un
+succès une implémentation logicielle d’un AES embarquée sur un
 System-on-Chip (SoC) moderne basé sur une architecture ARM A-53 via
 des attaques par perturbation. Nous avons ensuite appliqué la
-méthodologie en utilisant esFaulter sur ce bout de code afin
-d'interpréter les fautes obtenues. Nous avons ensuite comparé les deux
+méthodologie en utilisant esFirmware sur ce bout de code afin
+d’interpréter les fautes obtenues. Nous avons ensuite comparé les deux
 campagnes afin d’apporter des réponses sur la pertinence et les
-limites d'une pré-qualification par simulation.
+limites d’une pré-qualification par simulation.
