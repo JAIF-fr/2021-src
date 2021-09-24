@@ -27,31 +27,31 @@ valide pour assister en présentiel à JAIF 2021*.
 # nombreuses possibilités de restauration sont possibles à proximité
 # immédiate de l'ENS.
 
-| 09h50 |                       | Ouverture de la salle                                                                      |
-| 10h00 | Guillaume Bouffard    | *Ouverture de la journée*                                                                  |
-| 10h10 | *Session 1*           | *Outils d'évaluation de la sécurité*                                                       |
-|       | [[#deferriere][François de Ferrière]]  | Software Fault Injection Simulation                                                        |
-|       | [[#vinet][Guillaume Vinet]]       | L'émulation post-silicon est-elle pertinente pour pré-qualifier un code?                   |
-|       | [[#kazemi][Zahra Kazemi]]          | Hardware Security Evaluation of Embedded Applications Against Fault Injection Attack       |
-|       |                       | Q&R                                                                                        |
-| 11h25 |                       | /Pause/                                                                                    |
-| 11h55 | *Session 2*           | *Attaques et contre-mesures*                                                               |
-|       | [[#zgheib][Anthony Zgheib]]        | Specific Verification System for Open-Source ISA RISC-V Cores                              |
-|       | [[#chamelot][Thomas Chamelot]]       | SCI-FI -- Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks |
-|       | [[#tasso][Élise Tasso]]           | Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack                |
-|       |                       | Q&R                                                                                        |
-| 13h10 |                       | /Déjeuner/                                                                                 |
-| 14h30 | *Session 3*           | *Injection de fautes électromagnétiques #1*                                                |
-|       | [[#esteves][José Lopes Esteves]]    | Interférences intentionnelles et attaques en faute : différentes similarités                |
-|       | [[#toulemont][Julien Toulemont]]      | About the scaling of EMFI probes                                                           |
-|       |                       | Q&R                                                                                        |
-| 15h20 |                       | /Pause/                                                                                    |
-| 15h50 | *Session 4*           | *Injection de fautes électromagnétiques #2*                                                |
-|       | [[#trabelsi][Oualid Trabelsi]]       | Méthodes pour la modélisation des injections de faute électromagnétiques                   |
-|       | [[#gaine][Clément Gaine]]         | EMFI sur SoC                                                                               |
-|       |                       | Q&R                                                                                        |
-| 16h40 | Comité d'organisation | *Clôture de la journée*                                                                    |
-| 17h00 |                       | Fin de la journée                                                                          |
+| 09h50 |                       | Ouverture de la salle                                                                      |          |
+| 10h00 | Guillaume Bouffard    | *Ouverture de la journée*                                                                  |          |
+| 10h10 | *Session 1*           | *Outils d'évaluation de la sécurité*                                                       |          |
+|       | [[#deferriere][François de Ferrière]]  | Software Fault Injection Simulation                                                        | [[[file:media/JAIF2021 - deFerriere.pdf][slides]]] |
+|       | [[#vinet][Guillaume Vinet]]       | L'émulation post-silicon est-elle pertinente pour pré-qualifier un code?                   |          |
+|       | [[#kazemi][Zahra Kazemi]]          | Hardware Security Evaluation of Embedded Applications Against Fault Injection Attack       | [[[file:media/JAIF2021 - Kazemi.pdf][slides]]] |
+|       |                       | Q&R                                                                                        |          |
+| 11h25 |                       | /Pause/                                                                                    |          |
+| 11h55 | *Session 2*           | *Attaques et contre-mesures*                                                               |          |
+|       | [[#zgheib][Anthony Zgheib]]        | Specific Verification System for Open-Source ISA RISC-V Cores                              |          |
+|       | [[#chamelot][Thomas Chamelot]]       | SCI-FI -- Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks |          |
+|       | [[#tasso][Élise Tasso]]           | Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack                | [[[file:media/JAIF2021 - Tasso.pdf][slides]]] |
+|       |                       | Q&R                                                                                        |          |
+| 13h10 |                       | /Déjeuner/                                                                                 |          |
+| 14h30 | *Session 3*           | *Injection de fautes électromagnétiques #1*                                                |          |
+|       | [[#esteves][José Lopes Esteves]]    | Interférences intentionnelles et attaques en faute : différentes similarités               |          |
+|       | [[#toulemont][Julien Toulemont]]      | About the scaling of EMFI probes                                                           | [[[file:media/JAIF2021 - Toulemont.pdf][slides]]] |
+|       |                       | Q&R                                                                                        |          |
+| 15h20 |                       | /Pause/                                                                                    |          |
+| 15h50 | *Session 4*           | *Injection de fautes électromagnétiques #2*                                                |          |
+|       | [[#trabelsi][Oualid Trabelsi]]       | Méthodes pour la modélisation des injections de faute électromagnétiques                   |          |
+|       | [[#gaine][Clément Gaine]]         | EMFI sur SoC                                                                               |          |
+|       |                       | Q&R                                                                                        |          |
+| 16h40 | Comité d'organisation | *Clôture de la journée*                                                                    |          |
+| 17h00 |                       | Fin de la journée                                                                          |          |
 
 *** Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack
     :PROPERTIES:
