@@ -42,7 +42,7 @@ valide pour assister en présentiel à JAIF 2021*.
 |       |                       | Q&R                                                                                        |          |
 | 13h10 |                       | /Déjeuner/                                                                                 |          |
 | 14h30 | *Session 3*           | *Injection de fautes électromagnétiques #1*                                                |          |
-|       | [[#esteves][José Lopes Esteves]]    | Interférences intentionnelles et attaques en faute : différentes similarités               |          |
+|       | [[#esteves][José Lopes Esteves]]    | Interférences intentionnelles et attaques en faute : différentes similarités               | [[[file:media/JAIF2021 - Lopes-Esteves.pdf][slides]]] |
 |       | [[#toulemont][Julien Toulemont]]      | About the scaling of EMFI probes                                                           | [[[file:media/JAIF2021 - Toulemont.pdf][slides]]] |
 |       |                       | Q&R                                                                                        |          |
 | 15h20 |                       | /Pause/                                                                                    |          |
