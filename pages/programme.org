@@ -27,31 +27,31 @@ valide pour assister en présentiel à JAIF 2021*.
 # nombreuses possibilités de restauration sont possibles à proximité
 # immédiate de l'ENS.
 
-| 09h50 |                       | Ouverture de la salle                                                                      |          |
-| 10h00 | Guillaume Bouffard    | *Ouverture de la journée*                                                                  |          |
-| 10h10 | *Session 1*           | *Outils d'évaluation de la sécurité*                                                       |          |
-|       | [[#deferriere][François de Ferrière]]  | Software Fault Injection Simulation                                                        | [[[file:media/JAIF2021 - deFerriere.pdf][slides]]] |
-|       | [[#vinet][Guillaume Vinet]]       | L'émulation post-silicon est-elle pertinente pour pré-qualifier un code?                   | [[[file:media/JAIF2021 - Vinet.pdf][slides]]] |
-|       | [[#kazemi][Zahra Kazemi]]          | Hardware Security Evaluation of Embedded Applications Against Fault Injection Attack       | [[[file:media/JAIF2021 - Kazemi.pdf][slides]]] |
-|       |                       | Q&R                                                                                        |          |
-| 11h25 |                       | /Pause/                                                                                    |          |
-| 11h55 | *Session 2*           | *Attaques et contre-mesures*                                                               |          |
-|       | [[#zgheib][Anthony Zgheib]]        | Specific Verification System for Open-Source ISA RISC-V Cores                              | [[[file:media/JAIF2021 - Zgheib.pdf][slides]]] |
-|       | [[#chamelot][Thomas Chamelot]]       | SCI-FI -- Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks | [[[file:media/JAIF2021 - Chamelot.pdf][slides]]] |
-|       | [[#tasso][Élise Tasso]]           | Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack                | [[[file:media/JAIF2021 - Tasso.pdf][slides]]] |
-|       |                       | Q&R                                                                                        |          |
-| 13h10 |                       | /Déjeuner/                                                                                 |          |
-| 14h30 | *Session 3*           | *Injection de fautes électromagnétiques #1*                                                |          |
-|       | [[#esteves][José Lopes Esteves]]    | Interférences intentionnelles et attaques en faute : différentes similarités               | [[[file:media/JAIF2021 - Lopes-Esteves.pdf][slides]]] |
-|       | [[#toulemont][Julien Toulemont]]      | About the scaling of EMFI probes                                                           | [[[file:media/JAIF2021 - Toulemont.pdf][slides]]] |
-|       |                       | Q&R                                                                                        |          |
-| 15h20 |                       | /Pause/                                                                                    |          |
-| 15h50 | *Session 4*           | *Injection de fautes électromagnétiques #2*                                                |          |
-|       | [[#trabelsi][Oualid Trabelsi]]       | Méthodes pour la modélisation des injections de faute électromagnétiques                   | [[[file:media/JAIF2021 - Trabelsi.pdf][slides]]] |
-|       | [[#gaine][Clément Gaine]]         | EMFI sur SoC                                                                               | [[[file:media/JAIF2021 - Gaine.pdf][slides]]] |
-|       |                       | Q&R                                                                                        |          |
-| 16h40 | Comité d'organisation | *Clôture de la journée*                                                                    |          |
-| 17h00 |                       | Fin de la journée                                                                          |          |
+| 09h50 |                       | Ouverture de la salle                                                                      |                  |
+| 10h00 | Guillaume Bouffard    | *Ouverture de la journée*                                                                  |                  |
+| 10h10 | *Session 1*           | *Outils d'évaluation de la sécurité*                                                       |                  |
+|       | [[#deferriere][François de Ferrière]]  | Software Fault Injection Simulation                                                        | [[[file:media/JAIF2021 - deFerriere.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20894-jaif-2021-1x01-francois-de-ferriere-software-fault-injection-simulation][video]]] |
+|       | [[#vinet][Guillaume Vinet]]       | L'émulation post-silicon est-elle pertinente pour pré-qualifier un code?                   | [[[file:media/JAIF2021 - Vinet.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20893-jaif-2021-1x02-guillaume-vinet-lemulation-post-silicon-est-elle-pertinente-pour-pre-qualifier-un-code_][video]]] |
+|       | [[#kazemi][Zahra Kazemi]]          | Hardware Security Evaluation of Embedded Applications Against Fault Injection Attack       | [[[file:media/JAIF2021 - Kazemi.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20892-jaif-2021-1x03-zahra-kazemi-hardware-security-evaluation-of-embedded-applications-against-fault-injection-attack][video]]] |
+|       |                       | Q&R                                                                                        |                  |
+| 11h25 |                       | /Pause/                                                                                    |                  |
+| 11h55 | *Session 2*           | *Attaques et contre-mesures*                                                               |                  |
+|       | [[#zgheib][Anthony Zgheib]]        | Specific Verification System for Open-Source ISA RISC-V Cores                              | [[[file:media/JAIF2021 - Zgheib.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20891-jaif-2021-2x01-anthony-zgheib-specific-verification-system-for-open-source-isa-risc-v-cores][video]]] |
+|       | [[#chamelot][Thomas Chamelot]]       | SCI-FI -- Control Signal, Code, and Control Flow Integrity against Fault Injection Attacks | [[[file:media/JAIF2021 - Chamelot.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20889-jaif-2021-2x02-thomas-chamelot-sci-fi-control-signal-code-and-control-flow-integrity-against-fault-injection-attacks][video]]] |
+|       | [[#tasso][Élise Tasso]]           | Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack                | [[[file:media/JAIF2021 - Tasso.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20890-jaif-2021-2x03-elise-tasso-resistance-of-isogeny-based-cryptographic-implementations-to-a-fault-attack/][video]]] |
+|       |                       | Q&R                                                                                        |                  |
+| 13h10 |                       | /Déjeuner/                                                                                 |                  |
+| 14h30 | *Session 3*           | *Injection de fautes électromagnétiques #1*                                                |                  |
+|       | [[#esteves][José Lopes Esteves]]    | Interférences intentionnelles et attaques en faute : différentes similarités               | [[[file:media/JAIF2021 - Lopes-Esteves.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20886-jaif-2021-3x01-jose-lopes-esteves-interferences-intentionnelles-et-attaques-en-faute_-differentes-similarites][video]]] |
+|       | [[#toulemont][Julien Toulemont]]      | About the scaling of EMFI probes                                                           | [[[file:media/JAIF2021 - Toulemont.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20888-jaif-2021-3x02-julien-toulemont-about-the-scaling-of-emfi-probes][video]]] |
+|       |                       | Q&R                                                                                        |                  |
+| 15h20 |                       | /Pause/                                                                                    |                  |
+| 15h50 | *Session 4*           | *Injection de fautes électromagnétiques #2*                                                |                  |
+|       | [[#trabelsi][Oualid Trabelsi]]       | Méthodes pour la modélisation des injections de faute électromagnétiques                   | [[[file:media/JAIF2021 - Trabelsi.pdf][slides]]]         |
+|       | [[#gaine][Clément Gaine]]         | EMFI sur SoC                                                                               | [[[file:media/JAIF2021 - Gaine.pdf][slides]]] [[[https://videos.univ-grenoble-alpes.fr/video/20884-jaif-2021-4x02-clement-gaine-emfi-sur-soc][video]]] |
+|       |                       | Q&R                                                                                        |                  |
+| 16h40 | Comité d'organisation | *Clôture de la journée*                                                                    |                  |
+| 17h00 |                       | Fin de la journée                                                                          |                  |
 
 *** Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack
     :PROPERTIES:
